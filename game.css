@@ -1,0 +1,61 @@
+body {
+    background-color: seagreen;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+}
+
+.stack {
+    height: 175px;
+    width: 125px;
+    position: relative;
+    left: 80%;
+    bottom: 300px;
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+        right: -600px;
+        top: 100px;
+    }
+    25% {
+        background-color: yellow;
+        right: 100px;
+        top: 0px;
+    }
+    50% {
+        right: 0px;
+        top: 0px;
+    }
+}
+
+#dealer_cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+#player_cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+#hit {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#stand {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
